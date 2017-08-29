@@ -35,14 +35,14 @@ module.exports = function(grunt) {
 			options:{
 				livereload:true
 			},
-			js:{
-				files:['js/**/*.js'],
-				tasks:['uglify']
-			},
-			css:{
-				files:['css/**/*.css'],
-				tasks:['cssmin']
-			}
+			// js:{
+			// 	files:['js/**/*.js'],
+			// 	tasks:['uglify']
+			// },
+			// css:{
+			// 	files:['css/**/*.css'],
+			// 	tasks:['cssmin']
+			// }
 		},
 		cssmin:{
 			target:{
